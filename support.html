@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Support | Raphsody Comics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Paystack / Flutterwave scripts -->
+    <script src="https://js.paystack.co/v1/inline.js"></script>
+    <script src="https://checkout.flutterwave.com/v3.js"></script>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="header-container">
+
+            <div class="logo">
+                <img src="images/site icon.png" alt="Raphsody Comics Logo">
+            </div>
+
+            <button class="menu-btn" id="menuBtn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+
+        <nav class="nav-menu" id="navMenu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="support.html">Support</a>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+        <h1 class="page-title">Support Raphsody Comics</h1>
+
+        <section class="support-section">
+
+            <p>Thank you for enjoying our comics! Your support helps us continue creating more stories and adventures.</p>
+            <p>You can support us in the following ways:</p>
+
+            <div class="support-box">
+
+                <h2>Support Blade of Balance</h2>
+                <p>Your support helps fund illustration, production, and storytelling for our comic.</p>
+                <div class="hidden-section">
+                <!-- Paystack -->
+                <button class="support-btn" id="paystack-button">Support with Paystack</button>
+
+                <!-- Flutterwave -->
+                <button class="support-btn" id="flutterwave-button">Support with Flutterwave</button>
+
+                <!-- Buy Me a Coffee -->
+                <div class="buy-coffee">
+                    <p><strong>Buy Me a Coffee:</strong> Make a one-time contribution or set up a monthly support, helping us keep the comics coming!</p>
+                    <button class="support-btn" onclick="window.open('https://www.buymeacoffee.com/', '_blank')">
+                        Support on Buy Me a Coffee
+                    </button>
+                </div>
+            </div>
+
+                <!-- Bank Accounts -->
+                <div class="bank-box">
+                    <p><strong>Name:</strong> Lordson Anson</p>
+                    <p><strong>Account Number:</strong> 0010150555 (Access)</p>
+                    <p><strong>Account Number:</strong> 4449230010 (FCMB)</p>
+                </div>
+
+                <!-- Crypto -->
+                <div class="crypto-box">
+                    <p>Scan the QR code to send Bitcoin, USDT, or Ethereum via Trust Wallet:</p> 
+                    <img src="images/crypto.jpg" alt="Trust Wallet QR Code" class="crypto-qr">
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <p>© 2026 Raphsody Comics. All rights reserved.</p>
+    </footer>
+
+    <!-- JS -->
+    <script src="main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | Raphsody Comics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Contact page specific CSS -->
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="header-container">
+
+            <div class="logo">
+                <img src="images/episode 1.png" alt="Raphsody Comics Logo">
+            </div>
+
+            <button class="menu-btn" id="menuBtn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+
+        <nav class="nav-menu" id="navMenu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="support.html">Support</a>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+        <h1 class="page-title">Contact Raphsody Comics</h1>
+
+        <section class="contact-section">
+
+            <p class="contact-intro">
+                Have questions, suggestions, or feedback? Send us a message and we'll get back to you!
+            </p>
+
+            <form action="https://formsubmit.co/raphsodyinc@gmail.com" method="POST" class="contact-form">
+
+                <!-- Disable captcha -->
+                <input type="hidden" name="_captcha" value="false">
+
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+
+            <p class="contact-note">
+                Your message will mean a lot to us ☺️
+            </p>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <p>© 2026 Raphsody Comics. All rights reserved.</p>
+    </footer>
+
+    <!-- JS -->
+    <script src="main.js"></script>
+
+</body>
+</html>

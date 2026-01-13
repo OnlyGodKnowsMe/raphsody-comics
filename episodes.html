@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Episode 1 – The Warrior Awakens</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="header-container">
+
+            <div class="logo">
+                <img src="images/site icon.png" alt="Raphsody Logo">
+            </div>
+
+            <button class="menu-btn" id="menuBtn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+
+        <nav class="nav-menu" id="navMenu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="support.html">Support</a>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+        <section class="episode-section">
+
+            <h1 class="episode-title">
+                Episode 1: The Warrior Awakens
+            </h1>
+
+            <!-- IMAGE VIEWER -->
+            <div class="episode-viewer">
+
+                <!-- Image Wrapper (important for mobile zoom & centering) -->
+                <div class="image-wrapper">
+                    <img
+                        src="images/Page 1-1.png"
+                        alt="Episode 1 Comic Page"
+                        id="episodeImage"
+                        class="episode-image"
+                    >
+                </div>
+
+                <!-- PREV / NEXT -->
+                <div class="nav-buttons">
+                    <button id="prevBtn" type="button">Prev</button>
+                    <button id="nextBtn" type="button">Next</button>
+                </div>
+
+                <!-- ZOOM CONTROLS -->
+                <div class="zoom-buttons">
+                    <button id="zoomInBtn" type="button">Zoom +</button>
+                    <button id="zoomOutBtn" type="button">Zoom −</button>
+                </div>
+
+            </div>
+            <!-- HIDDEN IMAGE SOURCES -->
+            <div class="episode-images" hidden>
+                <img src="images/page 1-1.png">
+                <img src="images/page 2-1.png">
+                <img src="images/page 3-1.png">
+                <img src="images/page 4-1.png">
+                <img src="images/page 5.png">
+                <img src="images/page 6-1.png">
+                <img src="images/page 7-1.png">
+                <img src="images/page 8-1.png">
+                <img src="images/page 9.png">
+                <img src="images/page 10.png">
+                <img src="images/page 11.png">
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <p>© 2026 Raphsody Comics. All rights reserved.</p>
+    </footer>
+
+    <!-- JS -->
+    <script src="main.js"></script>
+</body>
+</html>
