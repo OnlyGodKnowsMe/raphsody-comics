@@ -141,3 +141,14 @@ document.getElementById('flutterwave-button').addEventListener('click', function
         },
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const supportButton = document.querySelector(".support-btn");
+
+    if (supportButton) {
+        supportButton.addEventListener("click", function (event) {
+            event.preventDefault();
+            window.location.href = "support.html";
+        });
+    }
+});
