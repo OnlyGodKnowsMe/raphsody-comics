@@ -585,3 +585,25 @@ body {
 .hidden-section {
     display: none; /* completely hides the section */
 }
+
+.support-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #1e88e5;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.support-btn:hover {
+    background-color: #1565c0;
+    transform: translateY(-2px);
+}
+
+.support-btn:active {
+    transform: translateY(0);
+}
