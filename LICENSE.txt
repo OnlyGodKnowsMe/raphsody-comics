@@ -1,0 +1,8 @@
+Copyright (c) 2026 Raphsody Media
+
+All rights reserved.
+
+This repository contains the Blade of Balance comic website. 
+No part of this project, including artwork and story content, 
+may be copied, modified, or redistributed without written permission 
+from Raphsody Media.
